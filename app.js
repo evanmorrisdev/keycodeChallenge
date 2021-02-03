@@ -5,6 +5,9 @@ const whichEventResult = document.getElementById("whichResult");
 
 
 
-headerResult.addEventListener("keydown", (event) => {
-    
+document.addEventListener("keydown", (event) => {
+    headerResult.textContent = event.which;
+    keycodeResult.textContent = event.code;
+    whichEventResult.textContent = event.which;
+    eventKeyResult.textContent = event.key;
 })
