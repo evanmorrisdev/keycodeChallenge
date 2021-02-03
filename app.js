@@ -3,8 +3,6 @@ const eventKeyResult = document.getElementById("keyResult");
 const keycodeResult = document.getElementById("codeResult");
 const whichEventResult = document.getElementById("whichResult");
 
-
-
 document.addEventListener("keydown", (event) => {
     headerResult.textContent = event.which;
     keycodeResult.textContent = event.code;
